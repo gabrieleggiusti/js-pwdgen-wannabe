@@ -17,6 +17,14 @@ console.log (firstName);
 console.log (lastName);
 console.log (color);
 
+const message = firstName + lastName + color + '22';
+
+const message1 = `${firstName}${lastName}${color}22`;
+
+console.log (message1);
+
+document.getElementById ('output-str').innerHTML= message1;
+/*
 document.getElementById ('dati').innerHTML=
 
 //Genero la stringa da stampare
@@ -32,5 +40,7 @@ e il mio colore preferito è <strong> ${color} </strong>.
 //stampo in pagina
 document.getElementById('output-str').innerHTML=outputstr
 
+
 console .log (outputstr);
 
+*/
